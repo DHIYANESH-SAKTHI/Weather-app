@@ -1,4 +1,4 @@
-Weather Forecasting App
+#Weather Forecasting App
 Welcome to my Weather Forecasting App, my first web development project! This app provides real-time weather information for any city around the globe. It's built using HTML, CSS, and JavaScript, and showcases my skills in front-end development, including responsive design, API integration, and basic animations.
 
 Features
