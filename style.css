@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(241, 110, 241), white );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-image: linear-gradient(purple 50% ,  rgba(255, 255, 255, 0.445));
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 550px;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.search input{
+    border-radius: 1000px;
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    margin-left: 20px;
+
+}
+.search input:focus{
+    outline: none;
+}
+.search button{
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.search button img{
+    width: 50%;
+    height: 50%;
+}
+.extra{
+    bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.humid, .air{
+    display: flex;
+    flex-direction: column;
+
+}
+.air{
+    bottom: 20px;
+}
+.humid h2{
+    margin-top: 15px;
+}
+.temp {
+    max-height: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.temp h2 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.temp h3 {
+    font-size: 24px;
+    color: #333;
+    bottom: 15px;
+}
+.humid{
+    margin-right: 40px;
+}
+.air{
+    margin-left: 40px;
+}
+.blabla{
+    display: none;
+}
